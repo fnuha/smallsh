@@ -1,3 +1,14 @@
+/* Author: Faaizah Nuha
+   Description: Shell program that executes basic commands
+   Date: 2/23/2024
+   Class: CS374
+
+   Citation for the original code snipped for trailing newline removal:
+   Date retrieved: 2/12/2024
+   Copied from: https://stackoverflow.com/questions/2693776/removing-trailing-newline-character-from-fgets-input
+   
+
+*/
 #include <fcntl.h>
 #include <dirent.h>
 #include <stdio.h>
