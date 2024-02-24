@@ -244,7 +244,7 @@ int main (int argc, char *argv[]) {
                     exit(1); //we exit the shell
                     break;
                 case 0: //child
-                    //turning on/off relevant signals and updating handlers
+                    //turning on/off relevant signals for child and updating handlers
                     SIGINT_action.sa_handler = SIG_DFL;
                     sigaction(SIGINT, &SIGINT_action, NULL);
                     SIGTSTP_action.sa_handler = SIG_IGN;
